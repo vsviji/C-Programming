@@ -14,9 +14,9 @@ int main()
     getchar();
     scanf("%[^\n]%*c", t);
     
-    printf("%c\n", ch);
-    printf("%s\n", s);
-    printf("%s\n", t);
+    printf("%c\n", ch);  //prints a letter
+    printf("%s\n", s);   //prints a word
+    printf("%s\n", t);   //prints a sentence
       
     return 0;
 }
