@@ -12,7 +12,7 @@ int binarySearch(int arr[], int size, int target) {
             return mid; // Element found return its index
         }
         if (arr[mid] < target) {
-            left = mid + 1; // Target is in the right half
+            left = mid + 1;// Target is in the right half
         }
         else {
             right = mid - 1; // Target is in the left half
