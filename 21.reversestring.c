@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 int main() {
     char original[] = "Hello, World!";
     char reversed[100]; // Assuming a maximum length of 100 characters for the reversed string
